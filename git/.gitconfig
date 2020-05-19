@@ -1,0 +1,5 @@
+[user]
+	name = Billy Rieger
+	email = wrieger@protonmail.com
+[core]
+	editor = nvim
