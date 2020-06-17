@@ -3,3 +3,5 @@
 	email = wrieger@protonmail.com
 [core]
 	editor = nvim
+[pull]
+	rebase = true
