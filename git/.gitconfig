@@ -1,7 +1,10 @@
 [user]
 	name = Billy Rieger
 	email = wrieger@protonmail.com
+	signingkey = 54D16CFA9FBC3AB4
 [core]
 	editor = nvim
 [pull]
 	rebase = true
+[commit]
+	gpgsign = true
