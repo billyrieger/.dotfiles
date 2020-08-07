@@ -9,7 +9,6 @@ Plug 'tpope/vim-unimpaired'
 
 " Language support
 
-Plug 'dag/vim-fish'       " fish shell
 Plug 'rust-lang/rust.vim' " Rust
 Plug 'cespare/vim-toml'   " TOML
 
@@ -119,8 +118,6 @@ nnoremap <silent> <space>s  :<C-u>CocFzfList symbols<CR>
 nmap <leader>rn <Plug>(coc-rename)
 
 let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
-
-let g:python3_host_prog = '/home/billy/.asdf/shims/python3'
 
 command! -nargs=0 Format :call CocAction('format')
 
